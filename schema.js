@@ -4,7 +4,7 @@ import resolvers from './resolvers';
 const typeDefs = [`
     type Query {
         categories: [String!]!
-        joke(category: String): Joke!
+        joke(category: String!): Joke!
     }
     type Joke {
         id: String!
