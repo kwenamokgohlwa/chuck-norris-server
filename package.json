@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/kwenamokgohlwa/chuck-norris-server/issues"
   },
-  "homepage": "https://chuck-norris-server.kwenam.now.sh",
+  "homepage": "https://chuck-norris-server-kwena.herokuapp.com/",
   "devDependencies": {},
   "dependencies": {
     "apollo-server": "^2.8.1",
