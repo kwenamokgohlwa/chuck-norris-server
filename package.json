@@ -2,11 +2,10 @@
   "name": "chuck-norris-server",
   "version": "1.0.0",
   "description": "Fullstack JS Chuck Norris App built with React, Redux, GraphQL & Node - Server",
-  "main": "server.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "babel-watch ./api/index.js",
-    "start": "node ./api/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,20 +17,11 @@
   "bugs": {
     "url": "https://github.com/kwenamokgohlwa/chuck-norris-server/issues"
   },
-  "homepage": "https://github.com/kwenamokgohlwa/chuck-norris-server#readme",
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-cli": "^6.26.0"
-  },
+  "homepage": "https://chuck-norris-server.kwenam.now.sh",
+  "devDependencies": {},
   "dependencies": {
-    "apollo-server-express": "^1.4.0",
-    "apollo-server-micro": "^2.8.1",
-    "babel-watch": "^7.0.0",
-    "express": "^4.17.1",
+    "apollo-server": "^2.8.1",
     "graphql": "^14.4.2",
-    "graphql-tools": "^4.0.5",
     "node-fetch": "^2.6.0"
   }
 }
