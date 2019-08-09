@@ -14,7 +14,7 @@ const typeDefs = gql`
     created_at: String!
     updated_at: String!
     icon_url: String!
-    categories: [String!]
+    categories: [String!]!
     value: String!
   }
 `;
