@@ -23,5 +23,8 @@
     "apollo-server": "^2.8.1",
     "graphql": "^14.4.2",
     "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "11.x"
   }
 }
