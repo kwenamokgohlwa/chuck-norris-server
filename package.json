@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "babel-watch server.js"
+    "dev": "babel-watch ./api/index.js",
+    "start": "node ./api/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "apollo-server-express": "^1.4.0",
+    "apollo-server-micro": "^2.8.1",
     "babel-watch": "^7.0.0",
     "express": "^4.17.1",
     "graphql": "^14.4.2",
