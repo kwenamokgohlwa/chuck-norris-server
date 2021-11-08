@@ -20,7 +20,7 @@
   "homepage": "https://chuck-norris-server-kwena.herokuapp.com/",
   "devDependencies": {},
   "dependencies": {
-    "apollo-server": "^2.8.1",
+    "apollo-server": "^2.25.3",
     "graphql": "^14.4.2",
     "node-fetch": "^2.6.0"
   },
